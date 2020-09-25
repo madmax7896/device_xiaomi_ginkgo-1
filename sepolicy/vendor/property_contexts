@@ -7,3 +7,6 @@ persist.vendor.sys.fp.      u:object_r:vendor_fp_prop:s0
 persist.vendor.fpc.         u:object_r:vendor_fp_prop:s0
 persist.sys.fp.             u:object_r:vendor_fp_prop:s0
 sys.vendor.fp.              u:object_r:vendor_fp_prop:s0
+
+# Dirac
+persist.audio.dirac.                u:object_r:dirac_prop:s0
