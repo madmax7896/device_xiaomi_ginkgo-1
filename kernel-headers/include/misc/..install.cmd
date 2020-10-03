@@ -1,1 +1,0 @@
-cmd_usr/include/misc/.install := /bin/bash /home/adithya/aosp/kernel/xiaomi/ginkgo/scripts/headers_install.sh ./usr/include/misc /home/adithya/aosp/kernel/xiaomi/ginkgo/include/uapi/misc cxl.h; /bin/bash /home/adithya/aosp/kernel/xiaomi/ginkgo/scripts/headers_install.sh ./usr/include/misc ./include/generated/uapi/misc ; touch usr/include/misc/.install
