@@ -36,7 +36,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
-TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
+TARGET_KERNEL_CONFIG := surge_defconfig
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184

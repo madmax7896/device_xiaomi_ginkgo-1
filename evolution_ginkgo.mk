@@ -24,10 +24,13 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common SuperiorOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/superior/config/common.mk)
+EVO_BUILD_TYPE := OFFICIAL
+EVO_MAINTAINER := MADMAX
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := superior_ginkgo
+PRODUCT_NAME := evolution_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
