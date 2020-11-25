@@ -27,6 +27,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 EVO_BUILD_TYPE := OFFICIAL
 EVO_MAINTAINER := MADMAX
 TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier
