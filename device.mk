@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     Tag \
     vendor.nxp.hardware.nfc@2.0-service
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     com.nxp.nfc.nq
 
 PRODUCT_COPY_FILES += \
