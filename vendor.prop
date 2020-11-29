@@ -82,6 +82,7 @@ vendor.voice.path.for.pcm.voip=false
 vendor.audio.adm.buffering.ms=6
 
 # Camera
+camera.disable_zsl_mode=true
 persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.isp.clock.optmz=0
 persist.vendor.camera.isp.turbo=1
@@ -106,11 +107,9 @@ persist.vendor.camera.tnr.video=1
 persist.vendor.camera.aec.sync=1
 persist.vendor.camera.instant.aec=1
 persist.vendor.camera.ae.instant.bound=20
+persist.vendor.camera.depurple=1
 persist.vendor.dualcam.lpm.enable=0
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.codeaurora.snapdragoncam,com.android.camera
-vendor.camera.hal1.packagelist=com.whatsapp,com.instagram.android,com.facebook.katana,com.snapchat.android
-vendor.camera.not.cts.apk=1
-vendor.camera.not.ctsverify.apk=1
 vendor.camera.vidhance.eis.enabled=1
 vendor.camera.vidhanceEis.force=1
 vendor.vidhance.video.enabled=1
