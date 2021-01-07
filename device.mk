@@ -42,11 +42,11 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.ginkgo
 
 # IFAA
-#PRODUCT_PACKAGES += \
-#    org.ifaa.android.manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
 
-#PRODUCT_BOOT_JARS += \
-#    org.ifaa.android.manager
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
 
 # Input
 PRODUCT_COPY_FILES += \
