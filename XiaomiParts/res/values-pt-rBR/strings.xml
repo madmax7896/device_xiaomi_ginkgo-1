@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Xiaomi Parts -->
+    <string name="device_settings_title">Xiaomi Parts</string>
+    <string name="device_settings_summary">Extras do fabricante</string>
+    <string name="audio_title">Áudio</string>
+    <string name="display_title">Tela</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">Otmizador de áudio</string>
+    <string name="dirac_summary">Otimize a qualidade do áudio</string>
+    <string name="dirac_headset_title">Escolha o tipo de fone de ouvido</string>
+    <string name="dirac_preset_title">Escolha uma predefinição</string>
+
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_default">Padrão</string>
+    <string name="dirac_headset_earbuds">Fone-01</string>
+    <string name="dirac_headset_in_ear_2013">Fone-02</string>
+    <string name="dirac_headset_piston_1">Fone-03</string>
+    <string name="dirac_headset_general">Fone-04</string>
+    <string name="dirac_headset_general_inear">Fone-05</string>
+    <string name="dirac_headset_piston_basic">Fone-06</string>
+    <string name="dirac_headset_piston_2">Fone-07</string>
+    <string name="dirac_headset_piston_standard">Fone-08</string>
+    <string name="dirac_headset_headphone">Fone-09</string>
+    <string name="dirac_headset_piston_youth">Fone-10</string>
+    <string name="dirac_headset_piston_color">Fone-11</string>
+    <string name="dirac_headset_in_ear">Fone-12</string>
+    <string name="dirac_headset_capsule">Fone-13</string>
+    <string name="dirac_headset_in_ear_pro">Fone-14</string>
+    <string name="dirac_headset_comfort">Fone-15</string>
+    <string name="dirac_headset_reduction_noise">Fone-16</string>
+    <string name="dirac_headset_cancelling">Fone-17</string>
+    <string name="dirac_headset_half_in_ear">Fone-18</string>
+    <string name="dirac_headset_in_ear2">Fone-19</string>
+    <string name="dirac_headset_earphone_basic">Fone-20</string>
+    <string name="dirac_headset_earphone">Fone-21</string>
+
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_default">Padrão</string>
+    <string name="dirac_preset_rock">Rock</string>
+    <string name="dirac_preset_jazz">Jazz</string>
+    <string name="dirac_preset_pop">Pop</string>
+    <string name="dirac_preset_classical">Clássico</string>
+    <string name="dirac_preset_hiphop">Hip Hop</string>
+    <string name="dirac_preset_blues">Blues</string>
+    <string name="dirac_preset_electronic">Electrônica</string>
+    <string name="dirac_preset_country">Country</string>
+    <string name="dirac_preset_dance">Dance</string>
+    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Bass Booster</string>
+
+     <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Áudio</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Limpar auto-falante</string>
+    <string name="clear_speaker_summary">Reproduza um áudio de 30 segundos para limpar o alto-falante</string>
+    <string name="clear_speaker_description">Execute este recurso uma ou duas vezes se descobrir que o alto-falante está ligeiramente bloqueado por poeira. Defina o volume da mídia para o máximo</string>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">Calibração de cores da tela</string>
+    <string name="kcal_settings_summary">Ajuste as cores da sua tela usando KCAL</string>
+    <string name="kcal_enable_title">Habilitar painel de cores personalizado</string>
+    <string name="kcal_enable_summary">Habilita um painel de cores para um ajuste mais personalizado</string>
+    <string name="red_slider_title">Vermelho</string>
+    <string name="green_slider_title">Verde</string>
+    <string name="blue_slider_title">Azul</string>    
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Calibração de cores</string>
+    <string name="saturation_slider_title">Saturação</string>
+    <string name="reset_default_button_title">Redefinir ajustes padrão</string>
+    <string name="reset_default_button_summary">Redefine as configurações aos valores padrões</string>
+    <string name="contrast_slider_title">Contraste</string>
+</resources>
