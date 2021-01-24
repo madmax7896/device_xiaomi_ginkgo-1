@@ -34,6 +34,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml
 
 # Camera
+$(call inherit-product, vendor/miuicamera/config.mk)
+
 PRODUCT_PACKAGES += \
     libmedia_jni_shim
 
