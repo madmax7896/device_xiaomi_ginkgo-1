@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.xiaomi_parts.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
